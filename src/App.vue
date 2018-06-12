@@ -21,6 +21,7 @@ export default {
 		background-color: #eef1f6;
 		width: 100vw;
 		height: 100vh;
+		overflow: auto;
 		.border-bottom {
 			border-bottom: 1px solid #e0e5ee;
 		}

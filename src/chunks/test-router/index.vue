@@ -22,9 +22,9 @@ export default {
     }
   },
   beforeRouteUpdate(to, from, next) {
-      this.url = to.path;
-      console.log(to, from);
-      next();
+      this.url = to.path
+      console.log(to, from)
+      next()
   }
 }
 </script>
