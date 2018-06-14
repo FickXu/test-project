@@ -1,4 +1,3 @@
-import Login from './module/login'
 const mutations = {
     // ...Login,
     getUser(state, user) {

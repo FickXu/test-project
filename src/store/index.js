@@ -4,8 +4,9 @@ Vue.use(Vuex)
 
 import * as actions from './action.js'
 import * as mutations from './mutation.js'
+import * as Login from './module/login'
 
-console.log('store/index.js>>>>', mutations)
+console.log('store/index.js>>>>', mutations, Login)
 
 
 const state = {
@@ -15,5 +16,8 @@ const state = {
 export default new Vuex.Store({
     state,
     actions: actions,
-    mutations: mutations.default
+    mutations: mutations.default,
+    modules: {
+        Login: Login.default
+    }
 })

@@ -10,7 +10,7 @@
 		<!-- modules -->
 		<div class="card">
 			<div class="title border-bottom">Modules</div>
-			<router-link class="item" tag="div" :to="{path: ''}">Modules方式的状态管理</router-link>
+			<router-link class="item" tag="div" :to="{path: '/modules'}">Modules方式的状态管理</router-link>
 		</div>
 	</div>
 </template>

@@ -19,7 +19,7 @@ export default {
 	name: "noModules",
 	data() {
 		return {
-		msg: "没有Modules的页面"
+		msg: "非Modules状态管理"
 		};
     },
     computed: {

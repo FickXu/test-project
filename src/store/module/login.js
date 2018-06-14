@@ -1,7 +1,22 @@
-const mumations = {
-    getUesr(state, {user}) {
-        state.loginUser = user;
+const Login = {
+    state: {
+        account: {
+            username: 'a',
+            password: '******'
+        }
+    },
+    mutations: {
+        logining(state, obj) {
+            state.account = obj;
+        }
+    },
+    actions: {
+        logining(context) {
+            setTimeout(() => {
+                context.commit('logining')
+            }, 2000);
+        }
     }
 }
 
-export default mumations;
+export default Login;
